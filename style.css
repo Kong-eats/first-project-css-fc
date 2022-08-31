@@ -1,0 +1,49 @@
+.main-article {
+    font-size: 20px;
+    color: rgb( 40, 68, 109);
+    background-color: bisque;
+}
+
+.article-header {
+    cursor: pointer; /* задаємо стиль курсору при наведенні на елемент*/
+    
+
+}
+
+.article-link {
+    font: inherit;
+    color: unset; /* unset - початкове значення властивості revert - повертає вбудоване значення в браузері*/
+    text-decoration: none;
+    border: 2px solid blue; /* solid - один з варіантів рамки на елементі*/
+}
+
+.img {
+    width: 150px;
+    /* box-sizing: border-box;  - розмір елемента = контент + padding + border */
+    padding: 12px; /* All 4 slides 12px padding */
+    /* padding: 10px 20px; - Top & Bottom(30px) + Left & Right(20px) */
+    /* padding: 10px 20px 30px; - Top(10px) + Left & Right(20px) + Bottom(30px)  */
+    /* padding: 10px 10px 10px 10px; - Top(10px) + Right(20px) + Bottom(30px) + Left(40px)  */
+    border: 4px solid yellow;
+    /* border-right-width: 4px;
+    border-right-style: solid;
+    border-right-color: blue; - для любої сторони елементу можна індивідуально задати бажані параметри*/
+    margin: 15px;
+}
+
+div {
+    background-color: blueviolet;
+    border: 2px solid red;
+    display: inline-block;
+    width: 50%;
+
+}
+
+.important-text {
+    color: red;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    display: block;
+}
+
